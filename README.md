@@ -16,7 +16,7 @@ It´s suggested to use a better nozzle cleaner than the original one from Anycub
 <img width="533" height="463" alt="Bildschirmfoto 2025-10-13 um 11 05 28" src="https://github.com/user-attachments/assets/d71ba27d-18cd-4daa-847d-0aa1a7ac1752" />
 
 
-In addition I introduced the hated and beloved "bubble". This "buble" is created just before printing the purgeline. Means Nozlle stops. Extrud so much material that the nozzle is surrounded by material. The material  cools only a bit down and then the nozzle is lifted up in Z-direction. The old material which was not cleaned by the nozzle wiper should be kept in the extruded material included. The idea I overtook from the Sovol SV08 startcode where this is done and I loved it, as it cleaned the nozzle well.
+In addition I introduced the hated and beloved "bubble". This "bubble" is created just before printing the purgeline. Means Nozlle stops. Extrud so much material that the nozzle is surrounded by material. The material  cools only a bit down and then the nozzle is lifted up in Z-direction. The old material which was not cleaned by the nozzle wiper should be kept in the extruded material included. The idea I overtook from the Sovol SV08 startcode where this is done and I loved it, as it cleaned the nozzle well.
 
 
 Processprofiles:
