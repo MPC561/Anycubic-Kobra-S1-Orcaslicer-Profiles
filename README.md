@@ -1,6 +1,6 @@
 Profiles:
 
-In his repo you will find a config bundle for OrcaSlicer with PETG and ABS profiles
+In his repo you will find a config bundle for OrcaSlicer with PETG, ABS, PLA and ASA profiles
 
 In detail:
 -	a printer profile with new startcode for the Kobra S1
@@ -40,5 +40,5 @@ In addition I mad some adaption in the cooling paramters. Especially smaller, de
 In addition I removed the castration of the printer which Anycubic did in their filament profiles for ABS/PETG. They configured very small volumetric speed of 12/15 mm3/s.
 
 My measurements show, that PETG can be printed up to 23mm3/s, ABS much more up to 28mm3/s. To have a reserve, I introduced 20mm3/s in my profiles. This should increase printing speed drastically for bigger print objects.
-
+Added now ASA and PLA filament profiles in addition. I suggest for ASA to use only the "Structural" process profiles. Tested with 0.20mm Structural Process Profiles.
 
