@@ -5,7 +5,7 @@ In his repo you will find a config bundle for OrcaSlicer with PETG, ABS, PLA and
 In detail:
 -	a printer profile with new startcode for the Kobra S1
 -	Multiple processprofiles for layer heights of 0.08mm, 0.12mm, 0.16mm, 0.2mm, 0.24mm and per layer height a "standard" and "structural" process profile
--	Multiple Material-/Filamentprofiles, for generic PETG, Jayo PETG, generic ASA and generic ABS
+-	Multiple Material-/Filamentprofiles, for Generic PETG, Jayo PETG, Deeply PETG, generic ASA, Eryone ASA, generic ABS, Esun ABS, Generic CF PETG, Eryone CF PETG
 
 
 Printer profile:
