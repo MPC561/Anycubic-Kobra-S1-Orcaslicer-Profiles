@@ -5,7 +5,7 @@ In his repo you will find a config bundle for OrcaSlicer with PETG, ABS, PLA and
 In detail:
 -	a printer profile with new startcode for the Kobra S1
 -	Multiple processprofiles for layer heights of 0.08mm, 0.12mm, 0.16mm, 0.2mm, 0.24mm and per layer height a "standard" and "structural" process profile
--	Multiple Material-/Filamentprofiles, for Generic PETG, Jayo PETG, Deeply PETG, generic ASA, Eryone ASA, generic ABS, Esun ABS, Generic CF PETG, Eryone CF PETG
+-	Multiple Material-/Filamentprofiles, for Generic PETG, Jayo PETG, Deeply PETG, generic ASA, Eryone ASA, generic ABS, Esun ABS, Generic CF PETG, Eryone CF PETG, Generic PLA, Deeply PLA
 
 
 Printer profile:
@@ -18,6 +18,9 @@ It´s suggested to use a better nozzle cleaner than the original one from Anycub
 The printer profile: "New Startcode 2.0" has to be exclusively used with this enhanced nozzle wiper.
 
 In addition I introduced the hated and beloved "bubble". This "bubble" is created just before printing the purgeline. Means, the Nozzle extrudes so much material that the nozzle is surrounded by material. The material cools only a bit down and then the nozzle is lifted up in Z-direction. The old material which was not cleaned by the nozzle wiper should be kept in the extruded material included. The idea I overtook from the Sovol SV08 startcode where this is done and I loved it, as it cleaned the nozzle well.
+
+As newest enhacement I did some things to achive a better first Layer by using the Startcode from Anycubic (G9111 macro) and embedd it in a Pre-Nozzle Cleaning and Post Blob- and Purgeline. The Z-Offset should now be really better.
+Now I also suggest to probe the bed before each print with a 5x5, 7x7 or 9x9 mesh. It´s important to use uneven numbers, so that the Z-Zero Position Measurement, the Homing (G28) and one Bedmeshpoint are on the same position (125, 125).
 
 
 Processprofiles:
