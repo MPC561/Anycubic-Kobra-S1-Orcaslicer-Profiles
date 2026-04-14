@@ -4,7 +4,7 @@ In his repo you will find a config bundle for OrcaSlicer with PETG, ABS, PLA and
 
 In detail:
 -	a printer profile with new startcode for the Kobra S1
--	Multiple processprofiles for layer heights of 0.08mm, 0.12mm, 0.16mm, 0.2mm, 0.24mm and per layer height a "standard" and "structural" process profile
+-	Multiple processprofiles for layer heights of 0.08mm, 0.12mm, 0.16mm, 0.2mm, 0.24mm and per layer height a "standard", "medium" and "structural" process profile (except 0.08mm, here is only a structural profile available)
 -	Multiple Material-/Filamentprofiles, for Generic PETG, Jayo PETG, Deeply PETG, generic ASA, Eryone ASA, generic ABS, Esun ABS, Generic CF PETG, Eryone CF PETG, Generic PLA, Deeply PLA
 
 
@@ -27,9 +27,11 @@ Processprofiles:
 
 The process profiles are mainly based on the Prusa Mk4s profiles. Me uses this profiles, and the philosophy behind, in all of my printers, more or less modified.
 
-As mentioned already. For every layer hight I deliver a "Standard" and a "Structural" profile
+As mentioned already. For every layer hight I deliver a "Standard", a "medium" and a "Structural" profile
 
 The "Standard" profile is using the possibilities of the printer more than the Anycubic from Anycubid delivered profile. The acceleratsions a set to high values which may, also with Resonance Compenstaion, lead to a slight "Ringing". On the other hand the print speed for BigSize Models should increase Models drasticaly. It will print fast if the Layer Times are high and slow where the layer times are small.
+
+The "Medium" profile is a compromise between the standard and the structural profiles concerning speed an accelerations.
 
 The "Structural" profile is intended to be used for print objects where you want to avoid to much "Ringing" and "Smoothing", for instance for small, granular and detailed structures.
 I reduced the acceleration values here dratsically. The resonance compensation measurements I did showed that the S1 is capable to print up to 5000mm/s2 without to much "ringing" and "smoothing"
@@ -44,5 +46,5 @@ In addition I mad some adaption in the cooling paramters. Especially smaller, de
 In addition I removed the castration of the printer which Anycubic did in their filament profiles for ABS/PETG. They configured very small volumetric speed of 12/15 mm3/s.
 
 My measurements show, that PETG can be printed up to 23mm3/s, ABS much more up to 28mm3/s. To have a reserve, I introduced 20mm3/s in my profiles. This should increase printing speed drastically for bigger print objects.
-Added now ASA and PLA filament profiles in addition. I suggest for ASA to use only the "Structural" process profiles. Tested with 0.20mm Structural Process Profiles.
+Added now ASA and PLA filament profiles in addition. I suggest for ASA to use only the "Structural" process profiles. Tested mainly with 0.20mm Structural Process Profiles.
 
